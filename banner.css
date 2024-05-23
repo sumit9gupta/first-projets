@@ -1,0 +1,56 @@
+body{
+    background-color: rgba(0, 0, 0, 0.315);
+    background: url(./bg2.jpg);
+    
+}
+main{
+    background-position:center center;
+    display:flex;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 200px;
+    width: 200px;
+    transition: all 1s ease;
+}
+img:hover{
+    border-radius: 100%;
+}
+header{
+    background-color: rgba(0, 172, 26, 0.938);
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px; 
+    display: flex;
+    text-align: right;
+}
+header ul{
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+gap: 20px;
+}
+a:hover{
+    color: rgb(251, 255, 0);
+}
+h1{
+    background-color: black;
+    color: antiquewhite;
+}
+h1:hover{
+    color: rgb(24, 10, 219);
+}
+button{
+    background-color: rgb(31, 182, 7);
+
+}
+button:hover{
+    color: azure;
+    border: 1px;
+}

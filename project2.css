@@ -1,0 +1,31 @@
+body{
+    background-color: antiquewhite;
+}
+
+#navbar{
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.747);
+}
+#navbar a{
+    float: left;
+    display: block;
+    color: rgb(21, 207, 102);
+    text-align:right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+#navbar a:hover{
+    background-color: aqua;
+    color: black;
+}
+h1{
+    text-align: center;
+    color: aqua;
+    
+}
+h2{
+    text-align: center;
+    text-shadow: 2px;
+    color: rgba(26, 183, 173, 0.879);
+}
